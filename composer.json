@@ -1,0 +1,22 @@
+{
+    "name": "solwin/productreview",
+    "description": "Magento 2 Product Reviews extension allows customers to upload image with product review form and display all reviews on single page. No registration required to upload images.",
+    "type": "magento2-module",
+    "version": "1.0.5",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Productreview\\": ""
+        }
+    }
+}
